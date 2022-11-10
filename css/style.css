@@ -344,13 +344,19 @@ main .articles_categorien_courses .div_categorien_courses .article_categorie .di
   gap: 3rem;
 }
 main .articles_categorien_courses .div_categorien_courses .article_categorie .div_categories .p_div_categories {
-  color: #401b9c;
+  color: #5624d0;
+  font-weight: bold;
+  font-size: 80%;
   text-decoration: underline;
 }
 main .articles_categorien_courses .div_categorien_courses .article_categorie .div_categories .p_div_categories:hover {
-  color: rgb(8, 255, 57);
+  color: #401b9c;
   cursor: pointer;
   text-decoration: underline;
+}
+main .articles_categorien_courses .div_categorien_courses .article_categorie .div_categories .h5_div_categories {
+  color: grey;
+  font-weight: 100;
 }
 main .articles_categorien_courses .div_categorien_courses .button_categorie {
   width: 22rem;
@@ -403,7 +409,7 @@ main .instructie__article .section_instractor .div_intractor_text .h1_intractor 
 main .instructie__article .section_instractor .div_intractor_text .p_instractor {
   width: 38ch;
 }
-main .instructie__article .section_instractor .div_intractor_text .button_instractor {
+main .instructie__article .section_instractor .div_intractor_text .button_categorie {
   width: 25rem;
   display: flex;
   justify-content: center;
@@ -414,11 +420,12 @@ main .instructie__article .section_instractor .div_intractor_text .button_instra
   cursor: pointer;
   font-weight: 600;
 }
-main .instructie__article .section_instractor .div_intractor_text .button_instractor:hover {
+main .instructie__article .section_instractor .div_intractor_text .button_categorie:hover {
   background: rgb(0, 0, 0);
 }
 main .section_trusted_by_team {
-  height: 40rem;
+  padding-top: 5rem;
+  height: 25rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -464,15 +471,28 @@ main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness
   gap: 2rem;
   width: 100%;
 }
+main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .div_component_button {
+  display: flex;
+  gap: 1rem;
+}
 main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .buttonimg_text_udemy_bussiness {
   width: 20rem;
-  height: 4rem;
+  height: 5rem;
   background: rgba(0, 0, 0, 0.9);
   color: white;
+  font-weight: bold;
   cursor: pointer;
 }
 main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .buttonimg_text_udemy_bussiness:hover {
   background: rgb(0, 0, 0);
+}
+main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .buttonimg_text_udemy_bussiness_2 {
+  width: 20rem;
+  height: 5rem;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
 }
 main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .img_text_udemy_bussiness {
   max-width: 100%;
@@ -503,9 +523,8 @@ main .breng_verandering .article_breng_verandering .div_breng_verandering_image 
   height: 40rem;
 }
 main .breng_verandering .article_breng_verandering .div_breng_verandering_image .img_breng_veranderingen {
-  max-width: 100%;
-  height: 40rem;
-  object-fit: cover;
+  width: 70%;
+  height: 90%;
 }
 main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text {
   display: flex;
@@ -524,7 +543,7 @@ main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text
 }
 main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text .button_breng_veranderingen {
   width: 20rem;
-  height: 4rem;
+  height: 5rem;
   background: rgba(0, 0, 0, 0.9);
   color: white;
   font-weight: 600;
