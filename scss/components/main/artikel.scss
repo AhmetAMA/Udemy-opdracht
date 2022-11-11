@@ -1,4 +1,4 @@
-.article__artikel{
+.section__artikel{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -7,7 +7,7 @@
     padding: 2rem;
     gap: 2rem;
     
-    .section__artikel{
+    .article__artikel{
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -22,12 +22,12 @@
         }
     }
 
-    .section__cointainer{
+    .article__cointainer{
         display: flex;
         flex-direction: column;
         gap: 2rem;
 
-        .article__carousel{
+        .div__carousel{
             display: flex;
             gap: 2rem;
             flex-wrap: wrap;

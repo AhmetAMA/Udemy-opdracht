@@ -112,6 +112,10 @@ body {
   background-color: rgba(0, 0, 0, 0.04);
 }
 
+.fa-cart-shopping {
+  font-size: 150%;
+}
+
 .li__burger {
   display: none;
 }
@@ -122,18 +126,18 @@ main {
   justify-content: center;
 }
 
-.section__foto {
+.article__foto {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.section__foto .img__foto {
+.article__foto .img__foto {
   width: 85%;
   height: 40rem;
   object-fit: cover;
 }
 
-.section__card {
+.article__kaart {
   display: flex;
   justify-content: center;
   position: relative;
@@ -141,27 +145,27 @@ main {
   width: 53%;
   bottom: 32rem;
 }
-.section__card .h2 {
+.article__kaart .h2 {
   width: 25ch;
   font-weight: bolder;
   font-size: 3rem;
 }
-.section__card .p__foto {
+.article__kaart .p__foto {
   width: 38ch;
 }
-.section__card .foto__card {
+.article__kaart .foto__kaart {
   display: flex;
   flex-direction: column;
   position: absolute;
   gap: 1.5rem;
   padding: 2rem;
-  width: 42.5rem;
+  width: 70%;
   height: 20rem;
   background: white;
   box-shadow: 0rem 0rem 1rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
-.article__artikel {
+.section__artikel {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -170,37 +174,37 @@ main {
   padding: 2rem;
   gap: 2rem;
 }
-.article__artikel .section__artikel {
+.section__artikel .article__artikel {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.article__artikel .section__artikel .h1__artikel {
+.section__artikel .article__artikel .h1__artikel {
   font-size: 4rem;
 }
-.article__artikel .section__artikel .p__artikel {
+.section__artikel .article__artikel .p__artikel {
   font-size: 2rem;
   width: 70ch;
 }
-.article__artikel .section__cointainer {
+.section__artikel .article__cointainer {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.article__artikel .section__cointainer .article__carousel {
+.section__artikel .article__cointainer .div__carousel {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
 }
-.article__artikel .section__cointainer .article__carousel .li__carousel {
+.section__artikel .article__cointainer .div__carousel .li__carousel {
   color: rgba(0, 0, 0, 0.9);
   list-style: none;
 }
-.article__artikel .section__cointainer .article__carousel .li__carousel:hover {
+.section__artikel .article__cointainer .div__carousel .li__carousel:hover {
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
-.article__artikel .section__cointainer .div__container {
+.section__artikel .article__cointainer .div__container {
   width: 70%;
   padding: 3rem;
   min-height: 30rem;
@@ -209,10 +213,10 @@ main {
   display: flex;
   flex-direction: column;
 }
-.article__artikel .section__cointainer .div__container .p__container {
+.section__artikel .article__cointainer .div__container .p__container {
   width: 100%;
 }
-.article__artikel .section__cointainer .div__container .button__carousel {
+.section__artikel .article__cointainer .div__container .button__carousel {
   min-width: 12rem;
   max-width: 20rem;
   display: flex;
@@ -225,7 +229,7 @@ main {
   font-weight: 600;
   cursor: pointer;
 }
-.article__artikel .section__cointainer .div__container .button__carousel:hover {
+.section__artikel .article__cointainer .div__container .button__carousel:hover {
   color: #1c1d1f;
   background-color: rgba(0, 0, 0, 0.04);
 }
@@ -501,32 +505,32 @@ main {
   display: flex;
   flex-direction: column;
 }
-.footer .section_footer {
+.footer .section__footer {
   padding: 4rem;
   display: flex;
   color: white;
   justify-content: space-between;
 }
-.footer .section_footer .article_footer {
+.footer .section__footer .article__footer {
   display: flex;
   gap: 15rem;
 }
-.footer .section_footer .article_footer .ul_footer {
+.footer .section__footer .article__footer .ul__footer {
   list-style: none;
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
   gap: 1.5rem;
 }
-.footer .section_footer .article_footer .ul_footer .li_footer {
+.footer .section__footer .article__footer .ul__footer .li__footer {
   font-size: 1.5rem;
   font-weight: 400;
   cursor: pointer;
 }
-.footer .section_footer .article_footer .ul_footer .li_footer:hover {
+.footer .section__footer .article__footer .ul__footer .li__footer:hover {
   text-decoration: underline;
 }
-.footer .section_footer .ul_bol_footer {
+.footer .section__footer .div__nedbutton {
   display: flex;
   position: relative;
   bottom: 2rem;
@@ -537,22 +541,22 @@ main {
   border: 0.1rem solid rgb(255, 253, 253);
   cursor: pointer;
 }
-.footer .section_footer .ul_bol_footer:hover {
+.footer .section__footer .div__nedbutton:hover {
   background: rgba(0, 0, 0, 0.5);
 }
-.footer .section_footer .ul_bol_footer .img_bol_footer {
+.footer .section__footer .div__nedbutton .img__nedbutton {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.footer .article_icon_author {
+.footer .article__udemylogo {
   display: flex;
   justify-content: space-between;
   padding: 0 4rem;
   align-items: center;
   color: white;
 }
-.footer .article_icon_author .div_icon_author .img_icon_author {
+.footer .article__udemylogo .img__udemylogo {
   max-width: 6rem;
 }
 
@@ -566,6 +570,33 @@ main {
   .ul__header {
     gap: 1rem;
   }
+}
+.header {
+  font-family: "Roboto", sans-serif;
+}
+
+.h2, .h1__artikel, .div__container, h2, .h1__partners {
+  font-family: "Lato", sans-serif;
+}
+
+.p__foto, .p__artikel, .p__container, h3, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.li__carousel {
+  font-family: "Sono", sans-serif;
+}
+
+h5 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h6 {
+  font-family: "Mukta", sans-serif;
+}
+
+.footer {
+  font-family: "Kanit", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

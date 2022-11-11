@@ -1,4 +1,4 @@
-.section__foto{
+.article__foto{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,12 +10,12 @@
     }    
 }
 
-.section__card{
+.article__kaart{
     display: flex;
     justify-content: center;
     position: relative;
     height: 5rem;
-    width:53%;
+    width: 53%;
     bottom: 32rem;
 
     .h2{
@@ -29,13 +29,13 @@
         width: 38ch;
     }
 
-    .foto__card{
+    .foto__kaart{
         display: flex;
         flex-direction: column;
         position: absolute;
         gap: 1.5rem;
         padding: 2rem;
-        width: 42.5rem;
+        width: 70%;
         height: 20rem;
         background: white;
         box-shadow: 0rem 0rem 1rem 0.5rem rgba(0,0,0,0.1);

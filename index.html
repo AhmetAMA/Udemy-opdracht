@@ -8,6 +8,9 @@
     <title>Online cursussen - Leer alles wat je wilt, wanneer je maar wilt | Udemy</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/be03e873de.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@700&family=Montserrat&family=Mukta:wght@300&family=Roboto&family=Roboto+Condensed&family=Sono:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -36,7 +39,7 @@
                 <img class="wereldbol li__weg" src="./img/icons8-geography-50.webp" alt="">
             </li>
             <li class="li__header">
-                <img class="cart" src="./img/icons8-shopping-cart-24.png" alt="">
+                <i class="fa-solid fa-cart-shopping"></i>
             </li>
             <li class="li__burger">
                 <i class="fa-solid fa-bars"></i>
@@ -48,26 +51,28 @@
     <main>
 <!-- Foto Begin -->
         <section class="section__foto">
-            <img class="img__foto" src="img/gta5.webp" alt="">
-        </section>
-        <section class="section__card">
-            <div class="foto__card">
-                <h2 class="h2">Gamen op een manier die bij jou past</h2>
-                <p class="p__foto">Vaardigheden voor nu (en de toekomst). Ga aan de slag met ons.</p>
-            </div>
+            <article class="article__foto">
+                <img class="img__foto" src="img/gta5.webp" alt="">
+            </article>
+            <article class="article__kaart">
+                <div class="foto__kaart">
+                    <h2 class="h2">Gamen op een manier die bij jou past</h2>
+                    <p class="p__foto">Vaardigheden voor nu (en de toekomst). Ga aan de slag met ons.</p>
+                </div>
+            </article>
         </section>
 <!-- Foto Einde -->
 
 <!-- Artikel Begin -->
-        <article class="article__artikel">
-            <section class="section__artikel">
+        <section class="section__artikel">
+            <article class="article__artikel">
                 <h1 class="h1__artikel">Een veelzijdig aanbod aan games</h1>
                 <p class="p__artikel">
                     Je kunt kiezen uit meer dan 204.000 online games en elke maand komen daar nieuwe games bij
                 </p>
-            </section>
-            <section class="section__cointainer">
-                <article class="article__carousel">
+            </article>
+            <article class="article__cointainer">
+                <div class="div__carousel">
                     <li class="li__carousel">GTA V</li>
                     <li class="li__carousel">Call of Duty</li>
                     <li class="li__carousel">RDR2</li>
@@ -75,7 +80,7 @@
                     <li class="li__carousel">The Last of Us</li>
                     <li class="li__carousel">Assassins Creed</li>
                     <li class="li__carousel">Battle Field</li>
-                </article>
+                </div>
                 <div class="div__container">
                     <h1>Begin met de nieuwste versie van de Grand Theft Auto series</h1>
                     <p class="p__container">
@@ -87,8 +92,8 @@
                     </p>
                     <button class="button__carousel">Verken GTA V</button>
                 </div>
-            </section>
-        </article>
+            </article>
+        </section>
 <!-- Artikel Einde -->
 
 <!-- Kaartjes Begin -->
@@ -271,9 +276,9 @@
                     <img class="img__component" src="img/logo-ub.svg" alt="">
                     <p>
                         Krijg onbeperkt toegang tot 17.000+ van de topgames.
-                        Leer en verbeter vaardigheden met
-                        cursussen voor het bedrijfsleven en op het
-                        gebied van tech, design en meer.
+                        Leer en verbeter je skills met
+                        games voor het gamen op het
+                        gebied van teamwork, aim en meer.
                     </p>
                     <div class="div__button">
                         <button class="button">Neem Udemy Business</button>
@@ -309,48 +314,43 @@
 
 <!-- Footer Begin -->
     <footer class="footer">
-        <section class="section_footer">
-            <article class="article_footer">
-                <div class="ul_footer">
-                    <li class="li_footer">Udemy Business</li>
-                    <li class="li_footer">Lesgeven op Udemy</li>
-                    <li class="li_footer">De app Downloaden</li>
-                    <li class="li_footer">Info over ons</li>
-                    <li class="li_footer">Contact opnemen</li>
+        <section class="section__footer">
+            <article class="article__footer">
+                <div class="ul__footer">
+                    <li class="li__footer">Udemy Business</li>
+                    <li class="li__footer">Lesgeven op Udemy</li>
+                    <li class="li__footer">De app Downloaden</li>
+                    <li class="li__footer">Info over ons</li>
+                    <li class="li__footer">Contact opnemen</li>
                 </div>
 
-                <div class="ul_footer">
-                    <li class="li_footer">Vacatures</li>
-                    <li class="li_footer">Blog</li>
-                    <li class="li_footer">Hulp en ondersteuning</li>
-                    <li class="li_footer">Partner</li>
-                    <li class="li_footer">Investeerders</li>
+                <div class="ul__footer">
+                    <li class="li__footer">Vacatures</li>
+                    <li class="li__footer">Blog</li>
+                    <li class="li__footer">Hulp en ondersteuning</li>
+                    <li class="li__footer">Partner</li>
+                    <li class="li__footer">Investeerders</li>
                 </div>
 
-                <div class="ul_footer">
-                    <li class="li_footer">Voorwaarden</li>
-                    <li class="li_footer">Privacybeleid</li>
-                    <li class="li_footer">Cookie-instellingen</li>
-                    <li class="li_footer">Sitemap</li>
-                    <li class="li_footer">Toegankelijkheidsverklaring</li>
+                <div class="ul__footer">
+                    <li class="li__footer">Voorwaarden</li>
+                    <li class="li__footer">Privacybeleid</li>
+                    <li class="li__footer">Cookie-instellingen</li>
+                    <li class="li__footer">Sitemap</li>
+                    <li class="li__footer">Toegankelijkheidsverklaring</li>
                 </div>
             </article>
 
-            <div class="ul_bol_footer">
-                <img class="img_bol_footer" src="./img/icons8-geography-52.webp" alt="">
+            <div class="div__nedbutton">
+                <img class="img__nedbutton" src="./img/icons8-geography-52.webp" alt="">
                 <p>Nederland</p>
             </div>
         </section>
 
-        <article class="article_icon_author">
-            <div class="div_icon_author">
-                <img class="img_icon_author" src="./img/gamelogo.webp" alt="">
-                <!-- <img class="img_icon_author" src="img/logo-udemy-inverted.svg" alt=""> -->
-            </div>
-
-            <div class="div_author_text">
-                <p>© 2022 Udemy, Inc.</p>
-            </div>
+        <article class="article__udemylogo">
+            <img class="img__udemylogo" src="./img/gamelogo.webp" alt="">
+            <!-- <img class="img__udemylogo" src="img/logo-udemy-inverted.svg" alt=""> -->
+            <p>© 2022 Udemy, Inc.</p>
         </article>
     </footer>
 <!-- Main Einde -->
