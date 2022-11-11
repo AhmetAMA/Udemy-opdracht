@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.ul_header{
+.ul__header{
     display: flex;
     width: 100%;
     align-items: center;
@@ -16,25 +16,25 @@
     gap: 2rem;
 }
 
-.logo_udemy{
+.logo__udemy{
     width: 8rem;
     height: 8rem;
     object-fit: contain;
     cursor: pointer;
 }
 
-.li_header{
+.li__header{
     color: #1c1d1f;
     list-style: none;
     font-size: 70%;
     cursor: pointer;
 }
 
-.li_header:hover{
+.li__header:hover{
     color: #5624d0;
 }
 
-.li_search-bar{
+.searchbar{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
     height: 3rem;
 }
 
-.search-bar_header_icon{
+.searchbar__icon{
     position: relative;
     left: 4rem;
     width: 2.5rem;
@@ -50,7 +50,7 @@
     object-fit: contain;
 }
 
-.search_bar_header{
+.searchbar__input{
     width: 100%;
     height: 100%;
     border-radius: 2rem;
@@ -58,7 +58,7 @@
     border: 0.1rem solid rgba(0,0,0,0.9);
 }
 
-.login_header{
+.login{
     width: 8rem;
     height: 4rem;
     border: 0.1rem solid rgba(0,0,0,0.9);
@@ -67,12 +67,12 @@
     font-weight: 600;
 }
 
-.login_header:hover{
+.login:hover{
     color: #1c1d1f;
     background-color: rgba(0,0,0,.04);
 }
 
-.inschrijven_header{
+.inschrijven{
     width: 10rem;
     height: 4rem;
     background: #211f1f;
@@ -80,18 +80,22 @@
     font-weight: 600;
 }
 
-.inschrijven_header:hover{
+.inschrijven:hover{
     cursor: pointer;
     background-color: #000;
 }
 
-.wereldbold_header{
+.wereldbol{
     width: 4rem;
     border: 0.1rem solid rgba(0,0,0,0.9);
     padding: 0.8rem;
 }
 
-.wereldbold_header:hover{
+.wereldbol:hover{
     color: #1c1d1f;
     background-color: rgba(0,0,0,.04);
+}
+
+.li__burger{
+    display: none;
 }

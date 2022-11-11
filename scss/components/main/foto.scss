@@ -1,0 +1,43 @@
+.section__foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img__foto{
+        width: 85%;
+        height: 40rem;
+        object-fit: cover;
+    }    
+}
+
+.section__card{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 5rem;
+    width:53%;
+    bottom: 32rem;
+
+    .h2{
+        width: 25ch;
+        font-weight: bolder;
+        font-size: 3rem;
+
+    }
+
+    .p__foto{
+        width: 38ch;
+    }
+
+    .foto__card{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        gap: 1.5rem;
+        padding: 2rem;
+        width: 42.5rem;
+        height: 20rem;
+        background: white;
+        box-shadow: 0rem 0rem 1rem 0.5rem rgba(0,0,0,0.1);
+    }
+}

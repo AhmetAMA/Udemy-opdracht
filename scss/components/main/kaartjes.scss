@@ -1,0 +1,84 @@
+.article__kaartjes{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 12rem;
+    width: 85%;
+    padding: 2rem;
+    gap: 2rem;  
+
+    .section__kaartjes{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8rem;
+        height: 60rem;
+        gap: 2rem;
+
+        .h1__kaartjes{
+            font-weight: 900;
+            font-size: 3rem;
+        }
+
+        .article__card{
+            display: flex;
+            gap: 1.3rem;
+
+            .div__kaartjes{
+                width: 25rem;
+                height: 35rem;
+                border-radius: 0.5rem;
+                background: rgba(255, 255, 255,0.5);
+                position: relative;
+                cursor: pointer;
+                
+                .img__kaartjes{
+                    width: 100%;
+                    height: 40%;
+                    object-fit: cover;
+                    border-top-left-radius: 0.5rem;
+                    border-top-right-radius: 0.5rem;
+                }
+
+                .article__onderkaartjes{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    padding:1rem 0.5rem;
+
+                    .div__rating{
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+
+                        .p__rating{
+                            color: rgb(155, 106, 14);
+                        }
+
+                        .li__sterren{
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            gap: 0.3rem;
+                            
+                            .fa-star{
+                                font-size: 1.5rem;
+                                color: orange;
+                            }
+                        }
+                    }
+
+                    .div__prijs{
+                        display: flex;
+                        gap: 2rem;
+
+                        .p__prijs{
+                            font-weight: 700;
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

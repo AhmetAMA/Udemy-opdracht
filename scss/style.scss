@@ -1,4 +1,15 @@
-@use './header/header.scss';
-@use './main/reset.scss';
-@use './main/main.scss';
-@use './footer/footer.scss';
+@use './reset.scss';
+
+@use './components/header/header.scss';
+
+@use './components/main/main.scss';
+@use './components/main/foto.scss';
+@use './components/main/artikel.scss';
+@use './components/main/kaartjes.scss';
+@use './components/main/categorie.scss';
+@use './components/main/partners.scss';
+@use './components/main/component.scss';
+
+@use './components/footer/footer.scss';
+
+@use './components/abstracts/mediaquerries.scss';
