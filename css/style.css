@@ -500,7 +500,7 @@ main {
 
 .footer {
   width: 100%;
-  height: 30rem;
+  height: 100%;
   background: #1c1d1f;
   display: flex;
   flex-direction: column;
@@ -561,14 +561,62 @@ main {
 }
 
 @media screen and (max-width: 60rem) {
-  .li__burger {
+  .header .li__burger {
     display: block;
   }
-  .li__weg {
+  .header .li__weg {
     display: none;
   }
-  .ul__header {
+  .header .ul__header {
     gap: 1rem;
+  }
+  .article__artikel .p__artikel {
+    max-width: 50ch;
+  }
+  .article__kaartjes .article__card {
+    flex-wrap: wrap;
+  }
+  .footer .section__footer {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 46.875rem) {
+  .article__artikel .h1__artikel {
+    max-width: 20ch;
+  }
+  .article__artikel .p__artikel {
+    max-width: 30ch;
+  }
+}
+@media screen and (max-width: 43.75rem) {
+  .footer .section__footer {
+    max-width: 60%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 37.5rem) {
+  .section__artikel {
+    left: 0;
+  }
+  .section__artikel .article__artikel .h1__artikel {
+    max-width: 18ch;
+  }
+  .section__artikel .article__artikel .p__artikel {
+    max-width: 30ch;
+  }
+  .article__kaartjes {
+    left: 0;
+  }
+}
+@media screen and (max-width: 25rem) {
+  .article__artikel .h1__artikel {
+    max-width: 10ch;
+  }
+  .article__artikel .p__artikel {
+    max-width: 20ch;
+  }
+  .article__categorie .article__binnencategorie {
+    flex-wrap: wrap;
   }
 }
 .header {

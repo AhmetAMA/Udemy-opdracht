@@ -1,14 +1,89 @@
 @media screen and (max-width: 60rem){
-    .li__burger{
-        display: block;
+    .header{
+        .li__burger{
+            display: block;
+        }
+    
+        .li__weg{
+            display: none;
+        }
+    
+        .ul__header{
+            gap: 1rem;
+        }
     }
 
-    .li__weg{
-        display: none;
+    .article__artikel{
+        .p__artikel{
+            max-width: 50ch;
+        }
     }
 
-    .ul__header{
-        gap: 1rem;
+    .article__kaartjes{
+        .article__card{
+            flex-wrap: wrap;
+        }
+    }
+
+    .footer{
+        .section__footer{
+            max-width: 60%;
+        }
     }
 }
 
+@media screen and (max-width: 46.875rem){
+    .article__artikel{
+        .h1__artikel{
+            max-width: 20ch;
+        }
+        .p__artikel{
+            max-width: 30ch;
+        }
+    }
+}
+
+@media screen and (max-width: 43.75rem){
+    .footer{
+        .section__footer{
+            max-width: 60%;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 37.5rem){
+    .section__artikel{
+        left: 0;
+
+        .article__artikel{
+            .h1__artikel{
+                max-width: 18ch;
+            }
+            .p__artikel{
+                max-width: 30ch;
+            }
+        }
+    }
+
+    .article__kaartjes{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 25rem){
+    .article__artikel{
+        .h1__artikel{
+            max-width: 10ch;
+        }
+        .p__artikel{
+            max-width: 20ch;
+        }
+    }
+
+    .article__categorie{
+        .article__binnencategorie{
+            flex-wrap: wrap;
+        }
+    }
+}
